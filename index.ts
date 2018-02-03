@@ -93,12 +93,12 @@ class EventSender {
     // insert code if not already there
     if (document.getElementById('piwik')) return;
 
-		const URL = '//wavesplatform.innocraft.cloud/';
+		const URL = '//kiacoin.innocraft.cloud/';
 
     this._pushAll('_paq', [
       ['setDocumentTitle', document.domain + '/' + document.title],
-      ['setCookieDomain', '*.wavesplatform.com'],
-      ['setDomains', ['*.wavesplatform.com']],
+      ['setCookieDomain', '*.kiacoin.trade'],
+      ['setDomains', ['*.kiacoin.trade']],
       ['trackPageView'],
       ['enableLinkTracking'],
       ['setTrackerUrl', URL + 'piwik.php'],
